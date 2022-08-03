@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Calculator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/purple_200">
+
+    <TextView
+        android:id="@+id/Txtheader"
+        android:layout_width="326dp"
+        android:layout_height="97dp"
+        android:text="Calculator"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:textSize="48sp"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="49dp" />
+
+    <EditText
+        android:id="@+id/edtfirstno"
+        android:layout_width="267dp"
+        android:layout_height="71dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android: android:hint="first number"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="251dp" />
+
+    <EditText
+        android:id="@+id/edtscondno"
+        android:layout_width="267dp"
+        android:layout_height="71dp"
+        android:
+        android:ems="10"
+        android:hint="secoud number"
+        android:inputType="textPersonName"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="81dp"
+        tools:layout_editor_absoluteY="387dp" />
+
+    <Button
+        android:id="@+id/btncalculate"
+        android:layout_width="252dp"
+        android:layout_height="93dp"
+        android:text="Calculate"
+        android:textSize="34sp"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="508dp" />
+
+    <TextView
+        android:id="@+id/Txttotal"
+        android:layout_width="326dp"
+        android:layout_height="97dp"
+        android:gravity="center"
+        android:text="Total"
+        android:textColor="@color/black"
+        android:textSize="48sp"
+        tools:layout_editor_absoluteX="57dp"
+        tools:layout_editor_absoluteY="608dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
